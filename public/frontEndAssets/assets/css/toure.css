@@ -1,0 +1,54 @@
+.take-toure-area {
+    background: #14171d;
+    position: relative;
+    z-index: 1;
+}
+
+.take-toure-area:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 386px;
+    width: 100%;
+    background: #fff;
+}
+.sec-style-two {
+    text-align: center;
+    color: #f68712;
+}
+
+img.title-top-shape {
+    margin-bottom: 20px;
+}
+
+.sec-style-two h2 {
+    color: #fff;
+}
+
+.sec-style-two > span {
+    color: #fff;
+}
+
+.video-area {
+    position: relative;
+
+    height: 570px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background: url(../images/bg/ist.jpg) center/cover no-repeat !important;
+}
+
+.video-area:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+}
